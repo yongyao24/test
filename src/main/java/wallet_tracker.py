@@ -449,7 +449,7 @@ def main():
         #     print("⚠️ 身份认证失败，某些功能可能不可用")
         
         # 示例：获取钱包信息
-        wallet_address = "0x1234567890abcdef1234567890abcdef12345678"  # 替换为实际的钱包地址
+        wallet_address = "0x7e8fb0392542812476d9f2d0d71c01d1fa0776c5"  # 替换为实际的钱包地址
         
         print(f"\n1. 获取钱包信息 ({wallet_address})...")
         wallet_info = tracker.get_wallet_info(wallet_address)
